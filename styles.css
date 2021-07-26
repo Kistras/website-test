@@ -1,0 +1,16 @@
+body {
+    background: url(bg.jpg) no-repeat, #223; 
+    background-attachment: fixed;
+}
+.text-align {margin-left:10px; margin-right:10px;}
+.header1 {font-size: 90px;}
+.header2 {font-size: 60px;}
+.header3 {font-size: 40px;}
+.info-pad {
+           background-color:#222233cc;
+           position: relative ; 
+           left: 0px; right: 0px; top: -12px;
+           color: #eef;
+          }
+a {color: #aaf;}
+.desc {font-size: 10px;}
