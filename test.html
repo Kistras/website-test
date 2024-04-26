@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button onclick="sendPostRequest()">Send POST Request</button>
+    </body>
+</html>
+<script>
+    function sendPostRequest() {
+        // Create a new XMLHttpRequest object
+        var xhr = new XMLHttpRequest();
+
+        // Set the request method and URL
+        xhr.open("POST", "https://echo.websocket.org/", true);
+        xhr.onload = function() {
+            console.log(xhr.responseText);
+        };
+
+        // Send the request
+        xhr.send(requestBody);
+    }
+</script>
